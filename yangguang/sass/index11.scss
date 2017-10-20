@@ -1,0 +1,333 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+html,
+body {
+    font-size: 62.5%;
+    font-family: "黑体";
+}
+header {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #eaeaea;
+    .iconfont {
+        font-size: 1.8rem;
+        color: #999999;
+    }
+    div:nth-of-type(1) {
+        width: 30%;
+        img {
+            width: 80%;
+            margin-left: 1rem;
+        }
+    }
+    div:nth-of-type(2) {
+        width: 40%;
+        font-size: 2.2rem;
+        text-align: center;
+    }
+    div:nth-of-type(3),
+    div:nth-of-type(4) {
+        margin-left: 1rem;
+    }
+}
+section {
+    .mingzi {
+        width: 96%;
+        display: flex;
+        margin: 0 auto;
+        padding-bottom: 1.5rem;
+        padding-top: 1.5rem;
+        div {
+            width: 100%;
+            div:nth-of-type(1) {
+                display: flex;
+                justify-content: space-between;
+                font-size: 1.8rem;
+                font-family: "微软雅黑";
+                color: #000;
+                span:nth-of-type(1) {
+                    a {
+                        font-size: 1.4rem;
+                        background-color: #39C894;
+                        margin-left: 0.9rem;
+                        color: white;
+                        border-radius: 5px;
+                        padding-left: 0.1rem;
+                        padding-right: 0.1rem;
+                    }
+                }
+                span:nth-of-type(2) {
+                    color: #999999;
+                    a {
+                        color: #FEB505;
+                    }
+                }
+            }
+            div:nth-of-type(2) {
+                display: flex;
+                width: 80%;
+                justify-content: space-between;
+                margin-top: 0.45rem;
+                font-family: "微软雅黑";
+                span {
+                    font-size: 1.4rem;
+                    color: #333;
+                    a {
+                        color: #999999;
+                    }
+                }
+            }
+            div:nth-of-type(3) {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 0.35rem;
+                font-family: "微软雅黑";
+                span {
+                    font-size: 1.2rem;
+                    color: #333;
+                    a {
+                        color: #999999;
+                    }
+                }
+            }
+        }
+    }
+    .pinglun {
+        width: 96%;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        padding-bottom: 0.6rem;
+        padding-top: 0.6rem;
+        div:nth-of-type(1) {
+            width: 50%;
+            height: 3rem;
+            border: 1px solid #F4F4F4;
+            text-align: center;
+            line-height: 3rem;
+            .iconfont {
+                color: #7b72e9;
+            }
+            span {
+                color: #7b72e9;
+            }
+        }
+        div:nth-of-type(2) {
+            width: 50%;
+            height: 3rem;
+            border: 1px solid #F4F4F4;
+            text-align: center;
+            line-height: 3rem;
+            .iconfont {
+                color: #39c894;
+            }
+            span {
+                color: #39c894;
+            }
+        }
+    }
+    .chengguo {
+        width: 100%;
+        background-color: #F4F4F4;
+        .div1 {
+            width: 96%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: flex-start;
+            padding-bottom: 1.5rem;
+            padding-top: 1.5rem;
+            span:nth-of-type(1) {
+                width: 40%;
+                font-size: 1.4rem;
+                color: #000;
+                a {
+                    color: #39c894;
+                    border-bottom: 1px solid #39c894;
+                }
+            }
+            span:nth-of-type(2) {
+                width: 40%;
+                font-size: 1.4rem;
+                color: #000;
+                a {
+                    color: #adadad;
+                }
+            }
+        }
+        .yuan {
+            width: 70%;
+            height: 2rem;
+            display: flex;
+            font-size: 1rem;
+            justify-content: flex-start;
+            text-align: center;
+            line-height: 2rem;
+            div:nth-of-type(1) {
+                width: 10%;
+                background-color: #39c894;
+                border-radius: 50%;
+                margin-left: 1rem;
+            }
+            div:nth-of-type(2) {
+                width: 10%;
+                height: 1px;
+                background-color: #39C894;
+                margin-top: 1rem;
+            }
+            div:nth-of-type(3) {
+                width: 40%;
+                background-color: #EAEAEA;
+                color: #666666;
+            }
+            div:nth-of-type(4) {
+                width: 20%;
+                background-color: #39C894;
+                color: white;
+            }
+            div:nth-of-type(5) {
+                width: 30%;
+                background-color: #FEB605;
+                color: white;
+            }
+        }
+    }
+    .ul {
+        width: 96%;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0.6rem;
+        padding-top: 0.6rem;
+        li:nth-of-type(1) {
+            width: 6%;
+            border-right: 1px solid #EAEAEA;
+        }
+        li:nth-of-type(2) {
+            width: 84%;
+            p {
+                font-size: 1.6rem;
+                padding-bottom: 0.6rem;
+                padding-top: 0.6rem;
+            }
+            ul {
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                li {
+                    width: 33%;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+            .tu {
+                width: 100%;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .i {
+        width: 96%;
+        margin: 0 auto;
+        display: flex;
+        font-size: 1.4rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        button:nth-of-type(1) {
+            width: 33.3%;
+            background: #eaeaea;
+            color: #000;
+            border: none;
+        }
+        button:nth-of-type(2) {
+            width: 33.3%;
+            background: #39C894;
+            color: #fff;
+            border: none;
+        }
+        div {
+            width: 33.3%;
+            padding: 0.5rem 0;
+            background: #fff;
+            text-align: center;
+        }
+    }
+    .z {
+        padding: 0.5rem;
+        font-size: 1.6rem;
+        line-height: 2rem;
+        text-indent: 2rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        border-top: 10px solid #EAEAEA;
+        border-bottom: 10px solid #EAEAEA;
+    }
+    .kf {
+        color: #39C894;
+        font-size: 1.6rem;
+        text-align: center;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        span {
+            color: #333;
+        }
+    }
+    .f {
+        display: flex;
+        justify-content: space-around;
+        font-size: 1.6rem;
+        span:nth-of-type(1) {
+            color: #39C894;
+        }
+    }
+    .fan {
+        position: relative;
+        .iconfont {
+            color: #9c9c9c;
+            font-size: 5rem;
+            margin-left: 5rem;
+            position: absolute;
+            right: 1.2rem;
+            top: -4rem;
+        }
+    }
+}
+footer {
+    .di {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        background-color: #000000;
+        opacity: 0.8;
+        div:nth-of-type(1) {
+            img {
+                width: 60%;
+            }
+        }
+        div:nth-of-type(2) {
+            width: 60%;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            img {
+                width: 90%;
+            }
+        }
+        div:nth-of-type(3) {
+            margin-top: 0.5rem;
+            p {
+                background-color: #FEB505;
+                border-radius: 20px;
+                padding: 0.5rem;
+                color: white;
+            }
+        }
+    }
+}

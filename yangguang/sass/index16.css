@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+html, body {
+  font-size: 62.5%; }
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.6rem 0; }
+  header .iconfont {
+    font-size: 1.4rem;
+    color: #999999; }
+  header div:nth-of-type(1) {
+    width: 30%; }
+    header div:nth-of-type(1) img {
+      width: 80%;
+      margin-left: 1rem; }
+  header div:nth-of-type(2) {
+    width: 40%;
+    font-size: 1.4rem;
+    text-align: center; }
+  header div:nth-of-type(3),
+  header div:nth-of-type(4) {
+    margin-left: 1rem; }
+
+section .banner {
+  width: 100%; }
+  section .banner img {
+    width: 100%; }
+section .fxs {
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 1.5rem; }
+section .x {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.6rem 0; }
+  section .x span:nth-of-type(1), section .x span:nth-of-type(3) {
+    width: 36%;
+    height: 0.05rem;
+    background: #d7d7d7; }
+  section .x span:nth-of-type(2) {
+    width: 16%;
+    margin-top: -0.8rem; }
+    section .x span:nth-of-type(2) img {
+      width: 100%; }
+section .inp {
+  width: 90%;
+  margin: 0.5rem auto;
+  margin-left: 2.6rem; }
+  section .inp input {
+    width: 88%;
+    padding: 0.5rem 0rem; }
+  section .inp div:nth-of-type(2) select {
+    width: 89%;
+    margin: 0.6rem 0;
+    padding: 0.5rem 0rem; }
+  section .inp div:nth-of-type(3) select {
+    width: 44%;
+    padding: 0.5rem 0rem; }
+  section .inp div:nth-of-type(4) select {
+    width: 29%;
+    margin: 0.6rem 0;
+    padding: 0.5rem 0rem; }
+  section .inp button {
+    width: 88%;
+    padding: 0.5rem 0rem;
+    background: #FEB505;
+    color: #fff;
+    font-size: 1.4rem;
+    border: none; }
+section .xxx {
+  width: 94%;
+  border: 1px dashed #39C894;
+  margin: 1.5rem 0;
+  margin-left: 0.7rem;
+  padding-bottom: 0.8rem; }
+  section .xxx p {
+    color: #999;
+    font-size: 1.3rem;
+    text-align: center; }
+  section .xxx p:nth-of-type(1) {
+    color: #000;
+    font-size: 1.4rem;
+    margin-top: -1rem; }
+  section .xxx p:nth-of-type(2) {
+    margin: 1rem 0; }
+    section .xxx p:nth-of-type(2) span {
+      color: #ff4351; }
+  section .xxx p:nth-of-type(3) {
+    color: #000;
+    font-weight: 600; }
+  section .xxx p:nth-of-type(4) {
+    margin: 0.8rem 0; }
+    section .xxx p:nth-of-type(4) span {
+      color: #EED215; }
+  section .xxx button {
+    width: 80%;
+    border: 1px solid #39C894;
+    color: #39C894;
+    padding: 0.3rem 0;
+    margin-left: 2.4rem;
+    background: #fff;
+    font-size: 1.3rem; }
+section .kong {
+  width: 100%;
+  height: 0.8rem;
+  background: #eaeaea;
+  margin: 1rem 0; }
+section .w {
+  font-size: 1.6rem;
+  text-align: center;
+  margin: 0.8rem 0; }
+section .sx {
+  display: flex;
+  width: 100%;
+  margin: 0.2rem auto;
+  justify-content: space-around;
+  align-items: center; }
+  section .sx div {
+    text-align: center; }
+    section .sx div img {
+      width: 4rem; }
+    section .sx div p:nth-of-type(1) {
+      color: #333;
+      font-size: 0.28rem; }
+    section .sx div p:nth-of-type(2) {
+      font-size: 0.24rem;
+      color: #666; }
+  section .sx div:nth-of-type(1), section .sx div:nth-of-type(2) {
+    border-right: 1px solid #E7E7E7; }
+section .z {
+  border-top: 0.7rem solid #eaeaea;
+  padding: 1rem;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  text-indent: 2rem;
+  clear: both; }
+section .kf {
+  color: #39C894;
+  font-size: 1.4rem;
+  text-align: center; }
+  section .kf span {
+    color: #333; }
+section .f {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  padding: 0.5rem 0; }
+  section .f span:nth-of-type(1) {
+    color: #39C894; }
+section .fan {
+  position: relative; }
+  section .fan .iconfont {
+    color: #9c9c9c;
+    font-size: 5rem;
+    margin-left: 5rem;
+    position: absolute;
+    right: 1.2rem;
+    top: -4rem;
+    background: #fff; }
+section .ma {
+  width: 100%;
+  padding: 1rem 0;
+  color: #999;
+  text-align: center;
+  font-size: 1.2rem; }
+  section .ma i {
+    color: #fff; }
+
+footer .zu {
+  width: 100%; }
+  footer .zu img {
+    width: 100%; }
+
+/*# sourceMappingURL=index16.css.map */
